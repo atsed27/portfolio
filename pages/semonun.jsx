@@ -33,7 +33,7 @@ const semonun = () => {
             order to save your favorite Events.
           </p>
           <a
-            href="https://github.com/fireclint/property-finder"
+            href="/"
             target="_blank"
             rel="noreferrer"
           >

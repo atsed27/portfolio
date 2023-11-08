@@ -30,7 +30,7 @@ function youtube() {
               youtube
             </p>
             <a
-              href="https://github.com/fireclint/property-finder"
+              href="https://github.com/atsed27/youtub-clone"
               target="_blank"
               rel="noreferrer"
             >

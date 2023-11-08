@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-
+import AboutImg from '../public/portiflo.jpg'
 function About() {
   return (
     <div id="about" className="flex items-center w-full p-2 py-16 md:h-screen">
@@ -36,7 +36,7 @@ function About() {
         <div className="flex items-center justify-center w-full h-auto p-4 m-auto duration-300 ease-in shadow-xl shadow-gray-400 rounded-xl hover:scale-105">
           <Image
             className="rounded-xl"
-            src={'/../public/portiflo.jpg'}
+            src={AboutImg}
             alt="/"
             height={200}
             width={300}

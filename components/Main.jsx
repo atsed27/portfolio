@@ -42,7 +42,9 @@ function Main() {
               <AiOutlineMail />
             </div>
             <div className="p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110 ">
-              <FaTelegram />
+              <Link href={'https://web.telegram.org/k/'}>
+                <FaTelegram />
+              </Link>
             </div>
           </div>
         </div>

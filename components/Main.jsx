@@ -33,18 +33,22 @@ function Main() {
           </div>
           <div className="flex items-center justify-between m-auto max-w-[330px] py-4">
             <div className="p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110 ">
-              <FaLinkedinIn />
+              <a href="https://www.linkedin.com/in/daniel-nigatu-b5585123a/">
+                <FaLinkedinIn />
+              </a>
             </div>
             <div className="p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110 ">
-              <FaGithub />
+              <a href="https://github.com/atsed27">
+                <FaGithub />
+              </a>
             </div>
             <div className="p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110 ">
               <AiOutlineMail />
             </div>
             <div className="p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110 ">
-              <Link href={'https://web.telegram.org/k/'}>
+              <a href={'https://web.telegram.org/k/'}>
                 <FaTelegram />
-              </Link>
+              </a>
             </div>
           </div>
         </div>

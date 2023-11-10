@@ -8,8 +8,8 @@ function Main() {
     <div id="home" className="w-full h-screen text-center">
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center ">
         <div>
-          <p className="text-sm tracking-widest text-gray-600 uppercase">
-            Let’s build something together
+          <p className="text-lg tracking-widest text-gray-600 ">
+            Let’s build something together new
           </p>
           <h2 className="py-4 text-gray-700">
             Hy, I’m <span className="text-[#5651e1]">Dani</span>
@@ -32,24 +32,26 @@ function Main() {
             </Link>
           </div>
           <div className="flex items-center justify-between m-auto max-w-[330px] py-4">
-            <div className="p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110 ">
-              <a href="https://www.linkedin.com/in/daniel-nigatu-b5585123a/">
+            <a href="https://www.linkedin.com/in/daniel-nigatu-b5585123a/">
+              <div className="p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110 ">
                 <FaLinkedinIn />
-              </a>
-            </div>
-            <div className="p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110 ">
-              <a href="https://github.com/atsed27">
+              </div>
+            </a>
+            <a href="https://www.linkedin.com/in/daniel-nigatu-b5585123a/">
+              <div className="p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110 ">
                 <FaGithub />
-              </a>
-            </div>
-            <div className="p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110 ">
-              <AiOutlineMail />
-            </div>
-            <div className="p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110 ">
-              <a href={'https://web.telegram.org/k/'}>
+              </div>
+            </a>
+            <a href="https://www.linkedin.com/in/daniel-nigatu-b5585123a/">
+              <div className="p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110 ">
+                <AiOutlineMail />
+              </div>
+            </a>
+            <a href="https://www.linkedin.com/in/daniel-nigatu-b5585123a/">
+              <div className="p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110 ">
                 <FaTelegram />
-              </a>
-            </div>
+              </div>
+            </a>
           </div>
         </div>
       </div>

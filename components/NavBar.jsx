@@ -26,13 +26,13 @@ function NavBar() {
       style={{ backgroundColor: `${navBg}` }}
       className={
         shadow
-          ? 'fixed  w-full h-20 shadow-xl z-[100]'
-          : 'fixed  w-full h-20  z-[100]'
+          ? 'fixed  w-full h-10 md:h-15 lg:h-20 shadow-xl z-[100]'
+          : 'fixed  w-full h-10 md:h-15 lg:h-20  z-[100]'
       }
     >
       <div className="flex items-center justify-between w-full h-full px-2 2xl:px-16">
         <Link href={'/'}>
-          <h2 className="text-blue-400 font-mono underline-offset-4 underline ">
+          <h2 className="text-blue-400 text-xl md:text-2xl lg:text-5xl font-mono underline-offset-4 underline ">
             Dani
           </h2>
         </Link>

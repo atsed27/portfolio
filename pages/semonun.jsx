@@ -23,7 +23,7 @@ const semonun = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            This app was built using Next JS and is hosted on MongoDb. Users are
+            This app was built using Next JS and is hosted on MongoDB. Users are
             able to search different Events based on an Address, City, or ZIP
             code to retrieve a list of active Events currently for sale. You
             will be able to view detail Event information as well as the

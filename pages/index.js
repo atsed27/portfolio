@@ -11,7 +11,6 @@ export default function Home() {
       <Head>
         <title>Daniel.lap</title>
       </Head>
-
       <Main />
       <About />
       <Skills />

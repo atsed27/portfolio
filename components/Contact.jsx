@@ -33,21 +33,31 @@ function Contact() {
               <div>
                 <p className="pt-8 uppercase">Connect With Me</p>
                 <div className="flex items-center justify-between py-4">
-                  <div className="p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110 ">
-                    <FaLinkedinIn />
-                  </div>
-                  <div className="p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110 ">
-                    <FaGithub />
-                  </div>
-                  <div className="p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110 ">
-                    <FaTwitter />
-                  </div>
-                  <div className="p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110 ">
-                    <AiOutlineMail />
-                  </div>
-                  <div className="p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110 ">
-                    <FaTelegram />
-                  </div>
+                  <a href="https://www.linkedin.com/in/daniel-nigatu-b5585123a/">
+                    <div className="p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110 ">
+                      <FaLinkedinIn />
+                    </div>
+                  </a>
+                  <a href="https://www.linkedin.com/in/daniel-nigatu-b5585123a/">
+                    <div className="p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110 ">
+                      <FaGithub />
+                    </div>
+                  </a>
+                  <a href="https://www.linkedin.com/in/daniel-nigatu-b5585123a/">
+                    <div className="p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110 ">
+                      <FaTwitter />
+                    </div>
+                  </a>
+                  <a href="https://www.linkedin.com/in/daniel-nigatu-b5585123a/">
+                    <div className="p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110 ">
+                      <AiOutlineMail />
+                    </div>
+                  </a>
+                  <a href="https://www.linkedin.com/in/daniel-nigatu-b5585123a/">
+                    <div className="p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110 ">
+                      <FaTelegram />
+                    </div>
+                  </a>
                 </div>
               </div>
             </div>

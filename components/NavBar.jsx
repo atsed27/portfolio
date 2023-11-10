@@ -1,8 +1,7 @@
 import Link from 'next/link';
 import React, { useEffect, useState } from 'react';
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai';
-import { FaGithub, FaLinkedin } from 'react-icons/fa';
-import { BsPersonLinesFill } from 'react-icons/bs';
+import { FaGithub, FaLinkedin, FaTelegram } from 'react-icons/fa';
 
 function NavBar() {
   const [nav, setNav] = useState(false);
@@ -109,23 +108,31 @@ function NavBar() {
                   <li className="py-4 text-sm">Contact</li>
                 </Link>
               </ul>
-              <div className="pt-20">
-                <p className="uppercase">Let connect us</p>
-                <div className="flex items-center justify-between w-full my-4 sm:w-[80%]">
-                  <div className="p-3 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-105 ">
-                    <FaLinkedin />
-                  </div>
-                  <div className="p-3 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-105 ">
-                    <FaGithub />
-                  </div>
-                  <div className="p-3 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-105 ">
-                    <AiOutlineMail />
-                  </div>
-                  <div className="p-3 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-105 ">
-                    <BsPersonLinesFill />
-                  </div>
+            </div>
+          </div>
+          <div className="ml-[-30px]">
+            <p className="uppercase">Let connect us</p>
+            <div className="flex items-center justify-between w-full my-4 sm:w-[80%]">
+              <a href="https://www.linkedin.com/in/daniel-nigatu-b5585123a/">
+                <div className="p-3 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110 ">
+                  <FaLinkedin />
                 </div>
-              </div>
+              </a>
+              <a href="https://www.linkedin.com/in/daniel-nigatu-b5585123a/">
+                <div className="p-3 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110 ">
+                  <FaGithub />
+                </div>
+              </a>
+              <a href="https://www.linkedin.com/in/daniel-nigatu-b5585123a/">
+                <div className="p-3 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110 ">
+                  <AiOutlineMail />
+                </div>
+              </a>
+              <a href="https://www.linkedin.com/in/daniel-nigatu-b5585123a/">
+                <div className="p-3 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110 ">
+                  <FaTelegram />
+                </div>
+              </a>
             </div>
           </div>
         </div>

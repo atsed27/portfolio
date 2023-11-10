@@ -7,7 +7,7 @@ import ProjectItems from './ProjectItems';
 function Project() {
   return (
     <div id="project" className="w-full">
-      <div className="max-w-[1240px] mx->auto px-2 py-16">
+      <div className="max-w-[1240px] mx-auto px-2 py-16">
         <p className="uppercase text-xl tracking-widest text-[#5651e5]">
           Project
         </p>

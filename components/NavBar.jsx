@@ -71,7 +71,7 @@ function NavBar() {
         <div
           className={
             nav
-              ? ' fixed top-0 left-0 w-[75%] sm:w-[65%] md:w-[45] bg-[#ecf0f3] p-10 ease-in duration-500 h-screen'
+              ? ' fixed overflow-y-scroll top-0 left-0 w-[75%] sm:w-[65%] md:w-[45] bg-[#ecf0f3] p-10 ease-in duration-500 h-screen'
               : 'fixed left-[-100%] top-0 p-10 ease-in duration-500'
           }
         >

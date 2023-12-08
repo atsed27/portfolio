@@ -37,7 +37,7 @@ function Main() {
                 <FaLinkedinIn />
               </div>
             </a>
-            <a href="https://www.linkedin.com/in/daniel-nigatu-b5585123a/">
+            <a href="https://github.com/atsed27">
               <div className="p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110 ">
                 <FaGithub />
               </div>
@@ -47,7 +47,7 @@ function Main() {
                 <AiOutlineMail />
               </div>
             </a>
-            <a href="https://www.linkedin.com/in/daniel-nigatu-b5585123a/">
+            <a href="https://web.telegram.org/k/#@dani_027">
               <div className="p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110 ">
                 <FaTelegram />
               </div>

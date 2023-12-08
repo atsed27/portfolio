@@ -14,10 +14,10 @@ function Project() {
         <h2>What I`ve Built</h2>
         <div className="grid gap-8 md:grid-cols-2 ">
           <ProjectItems
-            title="Semonun App"
+            title="Gebiya App"
             backgroundImg={semonunImg}
             projectUrl="/semonun"
-            tech="NextJS,ExpressJs"
+            tech="ReactJs,ExpressJs"
           />
           <ProjectItems
             title="Youtube clone"

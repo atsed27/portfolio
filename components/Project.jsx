@@ -12,7 +12,7 @@ function Project() {
           Project
         </p>
         <h2>What I`ve Built</h2>
-        <div className="grid gap-8 md:grid-cols-2 ">
+        <div className="grid gap-8 md:grid-cols-2 w-96 ">
           <ProjectItems
             title="Semonun App"
             backgroundImg={semonunImg}

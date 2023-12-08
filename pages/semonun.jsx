@@ -22,7 +22,7 @@ const semonun = () => {
         <div className="col-span-4">
           <p>Project</p>
           <h2>Overview</h2>
-          <h2>chap integration is in the process </h2>
+          <h2>chap integration is in the process and some part </h2>
           <p>
             This app was built using React JS for client side and Express js for
             server side use mongodb fro database is hosted on Vercel . Users are
@@ -30,12 +30,20 @@ const semonun = () => {
             currently for sale. You will be able to view detail Product
             information User authentication is available so you can signup and
             signIn to your account with an email address or you went in order to
-            save your favorite product adn use React redux and it persist.
+            save your favorite product and use React redux and it persist.
           </p>
-          <a href="/" target="_blank" rel="noreferrer">
+          <a
+            href="https://github.com/atsed27/Gebiya"
+            target="_blank"
+            rel="noreferrer"
+          >
             <button className="px-8 py-2 mt-4 mr-8">Code</button>
           </a>
-          <a href="/" target="_blank" rel="noreferrer">
+          <a
+            href="https://gebiya-5l3f.vercel.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <button className="px-8 py-2 mt-4">Demo</button>
           </a>
         </div>
@@ -47,14 +55,12 @@ const semonun = () => {
                 <RiRadioButtonFill className="pr-1" /> React js
               </p>
               <p className="flex items-center py-2 text-gray-600">
-                <RiRadioButtonFill className="pr-1" /> React Stayled -component
+                <RiRadioButtonFill className="pr-1" /> styled -component
               </p>
               <p className="flex items-center py-2 text-gray-600">
                 <RiRadioButtonFill className="pr-1" /> Javascript
               </p>
-              <p className="flex items-center py-2 text-gray-600">
-                <RiRadioButtonFill className="pr-1" /> Google API
-              </p>
+
               <p className="flex items-center py-2 text-gray-600">
                 <RiRadioButtonFill className="pr-1" /> Node js
               </p>

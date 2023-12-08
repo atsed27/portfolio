@@ -1,5 +1,5 @@
 import React from 'react';
-import semonunImg from '../public/assets/projects/semonun.png';
+import semonunImg from '../public/assets/projects/gebiya.png';
 import yoututeImg from '../public/assets/projects/youtube.png';
 
 import ProjectItems from './ProjectItems';

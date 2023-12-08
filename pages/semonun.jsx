@@ -22,15 +22,15 @@ const semonun = () => {
         <div className="col-span-4">
           <p>Project</p>
           <h2>Overview</h2>
+          <h2>chap integration is in the process </h2>
           <p>
-            This app was built using Next JS and is hosted on MongoDB. Users are
-            able to search different Events based on an Address, City, or ZIP
-            code to retrieve a list of active Events currently for sale. You
-            will be able to view detail Event information as well as the
-            specific location of the property integrated with the Google Maps
-            API and integrated use Chap API. User authentication is available so
-            you can signup and signIn to your account with an email address in
-            order to save your favorite Events.
+            This app was built using React JS for client side and Express js for
+            server side use mongodb fro database is hosted on Vercel . Users are
+            able to search different Shop to retrieve a list of active products
+            currently for sale. You will be able to view detail Product
+            information User authentication is available so you can signup and
+            signIn to your account with an email address or you went in order to
+            save your favorite product adn use React redux and it persist.
           </p>
           <a href="/" target="_blank" rel="noreferrer">
             <button className="px-8 py-2 mt-4 mr-8">Code</button>
@@ -44,10 +44,10 @@ const semonun = () => {
             <p className="pb-2 font-bold text-center">Technologies</p>
             <div className="grid grid-cols-3 md:grid-cols-1">
               <p className="flex items-center py-2 text-gray-600">
-                <RiRadioButtonFill className="pr-1" /> Next js
+                <RiRadioButtonFill className="pr-1" /> React js
               </p>
               <p className="flex items-center py-2 text-gray-600">
-                <RiRadioButtonFill className="pr-1" /> Tailwind
+                <RiRadioButtonFill className="pr-1" /> React Stayled -component
               </p>
               <p className="flex items-center py-2 text-gray-600">
                 <RiRadioButtonFill className="pr-1" /> Javascript

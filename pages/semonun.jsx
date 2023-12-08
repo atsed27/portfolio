@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import semonunImg from '../public/assets/projects/semonun.png';
+import GbiyaImg from '../public/assets/projects/gebiya.png';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
@@ -13,7 +13,7 @@ const semonun = () => {
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
-          src={semonunImg}
+          src={GbiyaImg}
           alt="/"
         />
       </div>

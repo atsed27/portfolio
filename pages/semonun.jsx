@@ -20,9 +20,9 @@ const semonun = () => {
 
       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 py-8">
         <div className="col-span-4">
-          <p>Project</p>
-          <h2>Overview</h2>
-          <h2>chap integration is in the process and some part </h2>
+          <p className="mb-2">Project</p>
+          <h5>Overview</h5>
+
           <p>
             This app was built using React JS for client side and Express js for
             server side use mongodb fro database is hosted on Vercel . Users are
@@ -32,15 +32,18 @@ const semonun = () => {
             signIn to your account with an email address or you went in order to
             save your favorite product and use React redux and it persist.
           </p>
+          <p className="text-blue-400">
+            it integration also with chapa and stipe for payment{' '}
+          </p>
           <a
-            href="https://github.com/atsed27/Gebiya"
+            href="https://github.com/atsed27/Ethiop-Gebiya"
             target="_blank"
             rel="noreferrer"
           >
             <button className="px-8 py-2 mt-4 mr-8">Code</button>
           </a>
           <a
-            href="https://gebiya-5l3f.vercel.app/"
+            href="https://e-gebiya.vercel.app/"
             target="_blank"
             rel="noreferrer"
           >

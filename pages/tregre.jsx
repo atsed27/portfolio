@@ -24,26 +24,26 @@ const TreGre = () => {
           <h5>Overview</h5>
 
           <p>
-            This app was built using React JS for client side and Express js for
-            server side use mongodb fro database is hosted on Vercel . Users are
-            able to search different Shop to retrieve a list of active products
-            currently for sale. You will be able to view detail Product
-            information User authentication is available so you can signup and
-            signIn to your account with an email address or you went in order to
-            save your favorite product and use React redux and it persist.
+            This web app was built using React JS ,Tailwind Css for client side
+            and Express js for server side use mongodb fro database is hosted on
+            Vercel . Users are able to search different Job to retrieve a list
+            of active Job currently form posts. You will be able to view detail
+            Job and apply fro free . User authentication is require fro apply
+            job and upload you resume and cover letter
           </p>
           <p className="text-blue-400">
-            it integration also with chapa and stipe for payment{' '}
+            it will be integration for business purpose also with chapa ,paypal
+            and stipe for payment{' '}
           </p>
           <a
-            href="https://github.com/atsed27/Ethiop-Gebiya"
+            href="https://github.com/atsed27/Tre_Gre"
             target="_blank"
             rel="noreferrer"
           >
             <button className="px-8 py-2 mt-4 mr-8">Code</button>
           </a>
           <a
-            href="https://e-gebiya.vercel.app/"
+            href="https://tre-gre.vercel.app/"
             target="_blank"
             rel="noreferrer"
           >
@@ -58,7 +58,7 @@ const TreGre = () => {
                 <RiRadioButtonFill className="pr-1" /> React js
               </p>
               <p className="flex items-center py-2 text-gray-600">
-                <RiRadioButtonFill className="pr-1" /> styled -component
+                <RiRadioButtonFill className="pr-1" /> Tailwind css
               </p>
               <p className="flex items-center py-2 text-gray-600">
                 <RiRadioButtonFill className="pr-1" /> Javascript

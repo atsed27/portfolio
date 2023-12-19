@@ -1,6 +1,7 @@
 import React from 'react';
 import semonunImg from '../public/assets/projects/gebiya.png';
 import yoututeImg from '../public/assets/projects/youtube.png';
+import TreGre from '../public/assets/projects/tregre.png';
 
 import ProjectItems from './ProjectItems';
 
@@ -24,6 +25,12 @@ function Project() {
             backgroundImg={yoututeImg}
             projectUrl="/youtube"
             tech="ReactJS,ExpressJs"
+          />
+          <ProjectItems
+            title="Online Job seekers web app"
+            backgroundImg={TreGre}
+            projectUrl="/tregre"
+            tech="ReactJS,ExpressJs,Tailwind Css"
           />
         </div>
       </div>

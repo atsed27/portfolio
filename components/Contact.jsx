@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
 import contact from '../public/assets/contact/contact.jpg';
-import { FaGithub, FaLinkedinIn, FaTelegram, FaTwitter } from 'react-icons/fa';
+import { FaGithub, FaLinkedinIn, FaTelegram } from 'react-icons/fa';
 import { AiOutlineMail } from 'react-icons/ai';
 import Link from 'next/link';
 import { HiOutlineChevronDoubleUp } from 'react-icons/hi';

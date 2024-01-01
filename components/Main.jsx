@@ -32,7 +32,7 @@ function Main() {
             </Link>
           </div>
           <div className="flex items-center justify-between m-auto max-w-[330px] py-4">
-            <a href="https://www.linkedin.com/in/daniel-nigatu-b5585123a/">
+            <a href="https://www.linkedin.com/in/daniel-nigatu-7657602a7/">
               <div className="p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110 ">
                 <FaLinkedinIn />
               </div>
@@ -47,7 +47,7 @@ function Main() {
                 <AiOutlineMail />
               </div>
             </a>
-            <a href="https://web.telegram.org/k/#@dani_027">
+            <a href="https://t.me/dani_027">
               <div className="p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110 ">
                 <FaTelegram />
               </div>

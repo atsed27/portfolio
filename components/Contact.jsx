@@ -44,7 +44,7 @@ function Contact() {
                     </div>
                   </a>
 
-                  <a href="https://www.linkedin.com/in/daniel-nigatu-b5585123a/">
+                  <a href="https://t.me/dani_027">
                     <div className="p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110 ">
                       <AiOutlineMail />
                     </div>

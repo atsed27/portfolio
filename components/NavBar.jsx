@@ -113,7 +113,7 @@ function NavBar() {
           <div className="ml-[-30px]">
             <p className="uppercase">Let connect us</p>
             <div className="flex items-center justify-between w-full my-4 sm:w-[80%]">
-              <a href="https://www.linkedin.com/in/daniel-nigatu-b5585123a/">
+              <a href="https://www.linkedin.com/in/daniel-nigatu-7657602a7/">
                 <div className="p-3 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110 ">
                   <FaLinkedin />
                 </div>

@@ -33,27 +33,23 @@ function Contact() {
               <div>
                 <p className="pt-8 uppercase">Connect With Me</p>
                 <div className="flex items-center justify-between py-4">
-                  <a href="https://www.linkedin.com/in/daniel-nigatu-b5585123a/">
+                  <a href="https://www.linkedin.com/in/daniel-nigatu-7657602a7/">
                     <div className="p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110 ">
                       <FaLinkedinIn />
                     </div>
                   </a>
-                  <a href="https://www.linkedin.com/in/daniel-nigatu-b5585123a/">
+                  <a href="https://github.com/atsed27">
                     <div className="p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110 ">
                       <FaGithub />
                     </div>
                   </a>
-                  <a href="https://www.linkedin.com/in/daniel-nigatu-b5585123a/">
-                    <div className="p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110 ">
-                      <FaTwitter />
-                    </div>
-                  </a>
+
                   <a href="https://www.linkedin.com/in/daniel-nigatu-b5585123a/">
                     <div className="p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110 ">
                       <AiOutlineMail />
                     </div>
                   </a>
-                  <a href="https://www.linkedin.com/in/daniel-nigatu-b5585123a/">
+                  <a href="https://t.me/dani_027">
                     <div className="p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110 ">
                       <FaTelegram />
                     </div>

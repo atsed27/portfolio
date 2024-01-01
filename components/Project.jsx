@@ -2,7 +2,7 @@ import React from 'react';
 import semonunImg from '../public/assets/projects/gebiya.png';
 import yoututeImg from '../public/assets/projects/youtube.png';
 import TreGre from '../public/assets/projects/tregre.png';
-
+import kdame from '../public/assets/projects/kdame.png';
 import ProjectItems from './ProjectItems';
 
 function Project() {
@@ -15,16 +15,22 @@ function Project() {
         <h2>What I`ve Built</h2>
         <div className="grid gap-8 md:grid-cols-2 ">
           <ProjectItems
-            title="Gebiya App"
+            title="MERN stack E-commerce web app"
             backgroundImg={semonunImg}
             projectUrl="/semonun"
             tech="ReactJs,ExpressJs"
           />
           <ProjectItems
+            title="Next js 13 Full-stack E-commerce web app"
+            backgroundImg={kdame}
+            projectUrl="/kdame_gebiya"
+            tech="ReactJs,Next Js"
+          />
+          <ProjectItems
             title="Youtube clone"
             backgroundImg={yoututeImg}
             projectUrl="/youtube"
-            tech="ReactJS,ExpressJs"
+            tech="ReactJS,ExpressJs,Tailwind Css"
           />
           <ProjectItems
             title="Online Job seekers web app"

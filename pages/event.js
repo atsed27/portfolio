@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import kdame from '../public/assets/projects/kdame.png';
+import kdame from '../public/assets/projects/semonun.png';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
@@ -24,26 +24,26 @@ const KdameGebiya = () => {
           <h5>Overview</h5>
 
           <p>
-            This app was built using React JS by Next Js for client side and for
-            server side use mongodb for database is hosted on Vercel . Users are
-            able to search different Shop to retrieve a list of active products
-            currently for sale. You will be able to view detail Product
+            This app was built using React JS by Next Js for both client side
+            and server side use mongodb for database is hosted on Vercel . Users
+            are able to search different Event to retrieve a list of active
+            events currently for sale. You will be able to view detail event
             information. User authentication is available so you can signup and
             signIn to your account with an email address or you went in order to
             save your favorite product and use React context.
           </p>
           <p className="text-blue-500">
-            It integration also with chapa and paypal for payment of products
+            It integration also with chapa and other is in process for payment
           </p>
           <a
-            href="https://github.com/atsed27/Kidame_gebiya"
+            href="https://github.com/atsed27/Semmonu"
             target="_blank"
             rel="noreferrer"
           >
             <button className="px-8 py-2 mt-4 mr-8">Code</button>
           </a>
           <a
-            href="https://kidame-gebiya.vercel.app/"
+            href="https://semmonu.vercel.app/"
             target="_blank"
             rel="noreferrer"
           >

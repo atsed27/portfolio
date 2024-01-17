@@ -4,6 +4,7 @@ import yoututeImg from '../public/assets/projects/youtube.png';
 import TreGre from '../public/assets/projects/tregre.png';
 import kdame from '../public/assets/projects/kdame.png';
 import ProjectItems from './ProjectItems';
+import Event from '../public/assets/projects/semonun.png';
 
 function Project() {
   return (
@@ -21,16 +22,22 @@ function Project() {
             tech="ReactJs,ExpressJs"
           />
           <ProjectItems
-            title="Next js 13 Full-stack E-commerce web app"
-            backgroundImg={kdame}
-            projectUrl="/kdame_gebiya"
-            tech="ReactJs,Next Js"
+            title="Event Discovery"
+            backgroundImg={Event}
+            projectUrl="/event"
+            tech="Next Js,Tailwind Css"
           />
           <ProjectItems
             title="Youtube clone"
             backgroundImg={yoututeImg}
             projectUrl="/youtube"
             tech="ReactJS,ExpressJs,Tailwind Css"
+          />
+          <ProjectItems
+            title="Next js 13 Full-stack E-commerce web app"
+            backgroundImg={kdame}
+            projectUrl="/kdame_gebiya"
+            tech="ReactJs,Next Js"
           />
           <ProjectItems
             title="Online Job seekers web app"

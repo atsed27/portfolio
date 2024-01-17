@@ -24,10 +24,10 @@ const KdameGebiya = () => {
           <h5>Overview</h5>
 
           <p>
-            This app was built using React JS by Next Js for client side and for
-            server side use mongodb for database is hosted on Vercel . Users are
-            able to search different Shop to retrieve a list of active products
-            currently for sale. You will be able to view detail Product
+            This app was built using React JS by Next Js for both client side
+            and server side use mongodb for database is hosted on Vercel . Users
+            are able to search different Shop to retrieve a list of active
+            products currently for sale. You will be able to view detail Product
             information. User authentication is available so you can signup and
             signIn to your account with an email address or you went in order to
             save your favorite product and use React context.

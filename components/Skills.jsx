@@ -2,6 +2,7 @@ import Image from 'next/image';
 import React from 'react';
 import HtmlImg from '../public/assets/skills/html.png';
 import css from '../public/assets/skills/css.png';
+import figma from '../public/assets/skills/figma.png';
 import tail from '../public/assets/skills/tailwind.png';
 import javaS from '../public/assets/skills/javascript.png';
 import node from '../public/assets/skills/node.png';
@@ -46,6 +47,16 @@ function Skills() {
           <div className="p-6 duration-300 ease-in shadow-xl rounded-xl hover:scale-105">
             <div className="grid items-center justify-center grid-cols-2 gap-4">
               <div className="m-auto">
+                <Image src={figma} alt="/" width={64} height={64} />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h4>Figma </h4>
+              </div>
+            </div>
+          </div>
+          <div className="p-6 duration-300 ease-in shadow-xl rounded-xl hover:scale-105">
+            <div className="grid items-center justify-center grid-cols-2 gap-4">
+              <div className="m-auto">
                 <Image src={tail} alt="/" width={64} height={64} />
               </div>
               <div className="flex flex-col items-center justify-center">
@@ -79,7 +90,7 @@ function Skills() {
                 <Image src={node} alt="/" width={64} height={64} />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h4>Node</h4>
+                <h4>Node Js</h4>
               </div>
             </div>
           </div>

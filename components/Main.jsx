@@ -21,7 +21,7 @@ function Main() {
           </p>
           <div className="w-[25%] m-auto flex items-center justify-center">
             <Link
-              href="/Daniel.pdf"
+              href="/Daniel Nigatu .pdf"
               target={'_blank'}
               className="flex items-center text-white  bg-black
                text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-white hover:text-black border-2 border-solid border-transparent

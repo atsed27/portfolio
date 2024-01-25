@@ -5,7 +5,8 @@ import TreGre from '../public/assets/projects/tregre.png';
 import kdame from '../public/assets/projects/kdame.png';
 import ProjectItems from './ProjectItems';
 import Event from '../public/assets/projects/semonun.png';
-import Andr from '../public/assets/projects/app.jpg';
+import Andr from '../public/assets/projects/Hospital.jpg';
+import Sra from '../public/assets/projects/sra.jpg';
 
 function Project() {
   return (
@@ -48,10 +49,16 @@ function Project() {
             tech="ReactJS,ExpressJs,Tailwind Css"
           />
           <ProjectItems
-            title="Andriod App app"
+            title="Hospital Management Android App"
             backgroundImg={Andr}
             projectUrl="/App"
-            tech="ReactJS,ExpressJs,Tailwind Css"
+            tech="Java"
+          />
+          <ProjectItems
+            title="Job seeker React native App"
+            backgroundImg={Sra}
+            projectUrl="/jobSeekerApp"
+            tech="React Native,React Rapid Api"
           />
         </div>
       </div>

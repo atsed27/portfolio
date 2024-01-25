@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import App from '../public/assets/projects/Hospital.jpg';
+import App from '../public/assets/projects/sra.jpg';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
@@ -24,11 +24,8 @@ const TreGre = () => {
           <h5>Overview</h5>
 
           <p>
-            is a Andriod App that helps manage the information related to
-            healthcare and aids in the job completion of healthcare providers
-            effectively. They manage the data related to all departments of
-            healthcare such as, Clinical Management,Financial Management
-            Laboratory Management Inpatient Management.
+            is React Native App for job seeking in the world using Rapid Free
+            job seeking Api
           </p>
 
           <a
@@ -44,8 +41,17 @@ const TreGre = () => {
             <p className="pb-2 font-bold text-center">Technologies</p>
             <div className="grid grid-cols-3 md:grid-cols-1">
               <p className="flex items-center py-2 text-gray-600">
-                <RiRadioButtonFill className="pr-1" /> Java
+                <RiRadioButtonFill className="pr-1" /> React
               </p>
+              <p className="flex items-center py-2 text-gray-600">
+                <RiRadioButtonFill className="pr-1" /> React Native
+              </p>
+              <p className="flex items-center py-2 text-gray-600">
+                <RiRadioButtonFill className="pr-1" /> Css
+              </p>
+              <p className="flex items-center py-2 text-gray-600">
+                <RiRadioButtonFill className="pr-1" /> Rapid Api
+              </p>{' '}
             </div>
           </div>
         </div>

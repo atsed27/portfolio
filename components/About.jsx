@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import AboutImg from '../public/portiflo.jpg'
+import AboutImg from '../public/portiflo.jpg';
 function About() {
   return (
     <div id="about" className="flex items-center w-full p-2 py-16 md:h-screen">
@@ -21,10 +21,10 @@ function About() {
           </p>
           <p className="py-2 text-gray-600">
             Though I am most proficient in building front-end applications using
-            HTML, CSS, Javascript,Typescript, and React,wordPress, and also I am
-            proficient in building Back-end applications using Node Js,Express
-            Js,Django, and Flask , and use different Database technology like
-            MongoDb,Mysql,Prisma.
+            HTML, CSS, Java,Python,Javascript,Typescript, and React,wordPress,
+            and also I am proficient in building Back-end applications using
+            Node Js,Express Js,Django, and Flask , and use different Database
+            technology like MongoDb,Mysql,Prisma.
           </p>
           <p className="py-2 text-gray-600">
             I started web development in 2018 first year computer Engineering .

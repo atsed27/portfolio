@@ -7,7 +7,7 @@ function ProjectItems({ title, tech, backgroundImg, projectUrl }) {
     <div>
       <div className="relative flex items-center justify-center w-full  p-4 shadow-xl rounded-xl shadow-gray-400 group hover:bg-gradient-to-r from-[#5651e3] to-[#709dff]">
         <Image
-          className="rounded-xl group-hover:opacity-10 h-60 md:h-80 md:object-contain"
+          className="rounded-xl group-hover:opacity-10 h-60 md:h-80 object-contain"
           src={backgroundImg}
           alt="/"
         />

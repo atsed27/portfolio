@@ -1,7 +1,7 @@
 import React from 'react';
 import semonunImg from '../public/assets/projects/gebiya.png';
 import yoututeImg from '../public/assets/projects/youtube.png';
-import TreGre from '../public/assets/projects/tregre.png';
+//import TreGre from '../public/assets/projects/tregre.png';
 import kdame from '../public/assets/projects/kdame.png';
 import ProjectItems from './ProjectItems';
 import Event from '../public/assets/projects/semonun.png';
@@ -42,12 +42,12 @@ function Project() {
             projectUrl="/kdame_gebiya"
             tech="ReactJs,Next Js"
           />
-          <ProjectItems
+          {/**  <ProjectItems
             title="Online Job seekers web app"
             backgroundImg={TreGre}
             projectUrl="/tregre"
             tech="ReactJS,ExpressJs,Tailwind Css"
-          />
+          /> */}
           <ProjectItems
             title="Hospital Management Android App"
             backgroundImg={Andr}

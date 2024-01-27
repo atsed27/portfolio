@@ -20,7 +20,7 @@ import docker from '../public/assets/skills/docker.png';
 
 function Skills() {
   return (
-    <div id="skills" className="w-full p-2 lg:h-screen">
+    <div id="skills" className="w-full p-2 lg:h-screen ">
       <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
         <p className="uppercase text-xl tracking-widest text-[#5651e5]">
           Skills

@@ -1,7 +1,7 @@
-import Link from 'next/link';
-import React from 'react';
-import { AiOutlineMail } from 'react-icons/ai';
-import { FaGithub, FaLinkedinIn, FaTelegram } from 'react-icons/fa';
+import Link from "next/link";
+import React from "react";
+import { AiOutlineMail } from "react-icons/ai";
+import { FaGithub, FaLinkedinIn, FaTelegram } from "react-icons/fa";
 
 function Main() {
   return (
@@ -16,13 +16,16 @@ function Main() {
           </h2>
           <h2 className="py-2text-gray-700 "> A Full-Stack Developer</h2>
           <p className="py-4 text-gray-600 max-w-[70%] m-auto">
-            I’m focused on building responsive front-end web applications and
-            Build back-end RestAPI and integrating both of them technologies.
+            I specialize in full-stack development with a strong focus on
+            backend, CI/CD, and containerization with Docker. My expertise
+            includes building scalable REST APIs, automating deployments, and
+            integrating backend services with modern frontend and React Native
+            applications.
           </p>
           <div className="w-[25%] m-auto flex items-center justify-center">
             <Link
               href="/Daniel Nigatu .pdf"
-              target={'_blank'}
+              target={"_blank"}
               className="flex items-center text-white  bg-black
                text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-white hover:text-black border-2 border-solid border-transparent
                hover:border-dark "

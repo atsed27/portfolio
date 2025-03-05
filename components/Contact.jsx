@@ -19,7 +19,7 @@ function Contact() {
           <div className="w-full h-full col-span-3 p-4 shadow-xl lg:col-span-2 rounded-xl shadow-gray-400">
             <div className="h-full lg:p-4">
               <div>
-                {' '}
+                
                 <Image src={contact} alt="/" />
               </div>
               <div>
